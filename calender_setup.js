@@ -226,8 +226,8 @@ function doClickAction() {
                     timeSelects[i].addEventListener("click", () => {
                         timeErrorMsg = document.getElementById("time-error");
                         if (timeErrorMsg) {
-                        timeErrorMsg.remove();
-                        // timeErrorMsg=null;
+                            timeErrorMsg.remove();
+                            // timeErrorMsg=null;
                         }
                         removePreviousTimeBoxSelects();
                         appointmentTime = timeSelects[i].innerHTML;

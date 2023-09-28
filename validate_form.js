@@ -69,8 +69,8 @@ document
 
     //Check if the phone number is valid
     phoneNum = document.getElementById("phone").value;
-    let phoneNumString=phoneNum.toString();
-    if (!phoneRegex.test(phoneNum)||phoneNumString.length<10) {
+    let phoneNumString = phoneNum.toString();
+    if (!phoneRegex.test(phoneNum) || phoneNumString.length < 10) {
       phoneNumError = document.getElementById("phone-error");
       if (!phoneNumError) {
         let errorMsg = document.createElement("div");
