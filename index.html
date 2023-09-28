@@ -21,20 +21,20 @@
               <span id="next">&gt;</span>
             </div>
           </header>
-            <div class="calendar">
-              <ul class="weeks">
-                <li>Mo</li>
-                <li>Tu</li>
-                <li>We</li>
-                <li>Th</li>
-                <li>Fr</li>
-                <li>Sa</li>
-                <li>Su</li>
-              </ul>
-              <ul class="days">
-                <!--days goes here!!!-->
-              </ul>
-            </div>
+          <div class="calendar">
+            <ul class="weeks">
+              <li>Mo</li>
+              <li>Tu</li>
+              <li>We</li>
+              <li>Th</li>
+              <li>Fr</li>
+              <li>Sa</li>
+              <li>Su</li>
+            </ul>
+            <ul class="days">
+              <!--days goes here!!!-->
+            </ul>
+          </div>
         </section>
         <section id="form">
           <form action="#" id="myForm">
@@ -47,27 +47,28 @@
             <label class="blue-color" for="phone">Phone*</label>
             <input id="phone" name="phone" type="number" required />
             <label class="blue-color" for="situation"
-              >Which service do you want?*</label>
-                  <select name="situation" id="situation">
-                      <option value="A" selected>
-                          Service A
-                      </option>
-                      <option value="B">
-                          Service B
-                      </option>
-                      <option value="C">
-                          Service C
-                      </option>
-                  </select>
+              >Which service do you want?*</label
+            >
+            <select name="situation" id="situation">
+              <option value="A" selected>Service A</option>
+              <option value="B">Service B</option>
+              <option value="C">Service C</option>
+            </select>
             <label class="blue-color" for="desc">Description</label>
             <textarea name="desc" id="desc"></textarea>
             <!--for passing date to php file-->
-            <input type="text" id="hide-input">
+            <input type="text" id="hide-input" />
             <div id="booking-section">
               <h2 id="booking-confirm-text">Booking Overview</h2>
               <div id="confirm-btn">
-              <input class="btn" id="submit" name="submit" type="submit" value="submit" />
-              <button class="btn" id="cancel">Cancel</button>
+                <input
+                  class="btn"
+                  id="submit"
+                  name="submit"
+                  type="submit"
+                  value="submit"
+                />
+                <button class="btn" id="cancel">Cancel</button>
               </div>
             </div>
           </form>
